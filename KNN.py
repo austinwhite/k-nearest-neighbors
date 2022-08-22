@@ -4,7 +4,7 @@ from collections import Counter
 def euclidean_distance(p, q):
     return np.sqrt(np.sum((p - q)**2))
 
-class asdfKNN:
+class KNN:
     def __init__(self, k=3):
         self.k = k
 
